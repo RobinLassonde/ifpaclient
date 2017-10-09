@@ -1,0 +1,30 @@
+{
+    "name": "lassonde/ifpaclient",
+    "description": "the best package ever",
+    "keywords": ["pinball", "ifpa"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Lassonde",
+            "email": "rlassonde@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lassonde\\Ifpa\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lasssonde\\Ifpa\\Tests\\": "tests/",
+            "Lassonde\\Ifpa\\Testing\\": "tests/testing"
+        }
+    }
+}
